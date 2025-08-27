@@ -28,7 +28,3 @@ Analisis sentimen ulasan Tokopedia. Repositori berisi **notebook eksplorasi**, *
   - `dataset_review_tokped_labelled.csv`  
   Seluruhnya dikelola via **Git LFS**.
 
----
-
-## Struktur
-
