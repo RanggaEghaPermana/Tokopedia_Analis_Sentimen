@@ -5,6 +5,7 @@
 ![Transformers](https://img.shields.io/badge/Transformers-4.x-ffd343?logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Git LFS](https://img.shields.io/badge/Git%20LFS-enabled-brightgreen)
 
 Analisis sentimen ulasan Tokopedia. Repositori berisi **notebook eksplorasi**, **dataset contoh**, serta **aplikasi (Streamlit) dengan model IndoBERT** yang disimpan lokal menggunakan **Git LFS**.
