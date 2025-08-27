@@ -13,18 +13,12 @@ Analisis sentimen ulasan Tokopedia. Repositori berisi **notebook eksplorasi**, *
 
 ## Fitur
 
-- **Klasifikasi Sentimen (3 kelas)**  
-  *Positive*, *Neutral*, *Negative* dengan skor keyakinan.
+- **Klasifikasi Sentimen (3 kelas)** — *Positive*, *Neutral*, *Negative* + skor keyakinan.  
+- **Aplikasi siap jalan** — `sentimen_app-token_indobert/app.py` memuat tokenizer & bobot model dari folder lokal `indoBERT_tokped/`.  
+- **Notebook analisis** — `notebooks/tokopedia.ipynb` untuk eksplorasi/persiapan data.  
+- **Dataset contoh** — `data/…` (ditrack via **Git LFS**).
 
-- **Aplikasi siap jalan** (`sentimen_app-token_indobert/app.py`)  
-  Memuat tokenizer & bobot model dari folder lokal `indoBERT_tokped/`. Termasuk aset animasi *lottie*.
+---
 
-- **Notebook analisis** (`notebooks/tokopedia.ipynb`)  
-  Eksplorasi/persiapan data. *(Output notebook disarankan dibersihkan sebelum commit).*
-
-- **Dataset contoh** (`data/…`)  
-  - `dataset_review_tokped.csv`  
-  - `dataset_review_tokped_cleaned.csv`  
-  - `dataset_review_tokped_labelled.csv`  
-  Seluruhnya dikelola via **Git LFS**.
+## Struktur
 
