@@ -1,0 +1,10 @@
+streamlit>=1.33
+transformers>=4.40
+torch>=2.2
+sentencepiece
+emoji
+numpy
+pandas
+scikit-learn
+python-dotenv
+Pillow
