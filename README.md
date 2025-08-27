@@ -22,3 +22,47 @@ Analisis sentimen ulasan Tokopedia. Repositori berisi **notebook eksplorasi**, *
 
 ## Struktur
 
+
+> Catatan: file CSV/model dikelola oleh **Git LFS**. Setelah `git clone`, jalankan `git lfs pull` agar file besarnya terunduh.
+
+---
+
+## Prasyarat
+
+- **Git** & **Git LFS** terpasang.
+- **Python 3.x** + **pip**.
+- (Opsional) **virtual environment** agar dependensi rapi.
+
+---
+
+## Instalasi (Cepat)
+
+### Windows (PowerShell)
+```powershell
+# 1) Clone dan unduh file LFS
+git clone https://github.com/RanggaEghaPermana/Tokopedia_Analis_Sentimen.git
+cd Tokopedia_Analis_Sentimen
+git lfs install
+git lfs pull
+
+# 2) Buat & aktifkan virtualenv
+python -m venv .venv
+.venv\Scripts\activate
+
+# 3) Pasang dependensi
+# a) Jika repository sudah punya requirements.txt
+# pip install -r requirements.txt
+
+# b) Jika belum, hasilkan otomatis dari import aktual
+pip install pipreqs
+pipreqs . --force
+pip install -r requirements.txt
+
+# 4) Jalankan aplikasi (jika app.py menggunakan Streamlit)
+pip install streamlit
+streamlit run sentimen_app-token_indobert/app.py
+
+# 5) (Opsional) Jalankan notebook
+pip install notebook
+jupyter notebook
+# lalu buka notebooks/tokopedia.ipynb
